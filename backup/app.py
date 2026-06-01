@@ -1,5 +1,3 @@
-#full finished backup app.py
-
 from flask import Flask, request, send_from_directory
 app = Flask(__name__)
 @app.route('/images/<path:filename>')
